@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "UNI",
+    "slug": "uni",
+    "scheme": "com.uni.app",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#222222",
+    "splash": {
+      "image": "./assets/splash/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#222222"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "1",
+      "icon": "./assets/icon.png",
+      "bundleIdentifier": "com.groupe-uni.client",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Donner accès à la localisation permet de trouver des restaurants à proximité",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Donner accès à la localisation permet de trouver des restaurants à proximité"
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.uni.app",
+      "icon": "./assets/icon.png"
+    },
+    "locales": {
+      "fr": "./fr.json"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "UNI",
+  "name": "UNI"
+}

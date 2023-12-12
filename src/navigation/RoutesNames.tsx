@@ -1,0 +1,53 @@
+const RoutesNames = {
+  ForgotPasswordPage: 'ForgotPasswordPage',
+  ResetPasswordPage: 'ResetPasswordPage',
+  LoginPage: 'LoginPage',
+  RegistrationPage: 'RegistrationPage',
+  SubscriptionDescriptionPage: 'SubscriptionDescriptionPage',
+  HomePage: 'HomePage',
+  AddPaymentMethodPage: 'AddPaymentMethodPage',
+  PaymentModalNavigator: 'PaymentModalNavigator',
+  PreferencesPage: 'PreferencesPage',
+  BottomTab: 'BottomTab',
+  CancelSubscriptionPage: 'CancelSubscriptionPage',
+  RestaurantsPage: 'RestaurantsPage',
+  RestaurantDetailsPage: 'RestaurantDetailsPage',
+  RestaurantsMapPage: 'RestaurantsMapPage',
+  SubscriptionSuggestionModal: 'SubscriptionSuggestionModal',
+  OnboardingPage: 'OnboardingPage',
+  AccountStack: 'AccountStack',
+  HomeStack: 'HomeStack',
+  RestaurantsStack: 'RestaurantsStack',
+  CommunityStack: 'CommunityStack',
+  SavedCardsPage: 'SavedCardsPage',
+  ChooseRestaurantPage: 'ChooseRestaurantPage',
+  ChooseNumberPersonsPage: 'ChooseNumberPersonsPage',
+  ScanPage: 'ScanPage',
+  CardPage: 'CardPage',
+  ModalOrderNavigator: 'ModalOrderNavigator',
+  ProductDetailsPage: 'ProductDetailsPage',
+  OrderHistoryPage: 'OrderHistoryPage',
+  OrderHistoryDetailsPage: 'OrderHistoryDetailsPage',
+  ChooseDatePage: 'ChooseDatePage',
+  BookingHistoryPage: 'BookingHistoryPage',
+  EditProfilePage: 'EditProfilePage',
+  OrderOnSiteSummaryPage: 'OrderOnSiteSummaryPage',
+  EditPasswordPage1: 'EditPasswordPage1',
+  EditPasswordPage2: 'EditPasswordPage2',
+  RecipePage: 'RecipePage',
+  EdenredWebviewPage: 'EdenredWebviewPage',
+  NotationPage: 'NotationPage',
+  AccountPage: 'AccountPage',
+  ArticlePage: 'ArticlePage',
+  BlogPage: 'BlogPage'
+};
+
+export default RoutesNames;
+
+export const APP_PATH_URL = {
+  '--/auth-stack/reset-password': RoutesNames.ResetPasswordPage,
+  'auth-stack/reset-password': RoutesNames.ResetPasswordPage,
+  '--/app-stack/subscription-modal': RoutesNames.SubscriptionSuggestionModal,
+  'app-stack/subscription-modal': RoutesNames.SubscriptionSuggestionModal,
+  'app-stack/subscription-page': RoutesNames.SubscriptionDescriptionPage
+};

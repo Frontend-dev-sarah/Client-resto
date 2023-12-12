@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "548224533721",
+    "firebase_url": "https://uni1-eaf5a.firebaseio.com",
+    "project_id": "uni1-eaf5a",
+    "storage_bucket": "uni1-eaf5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548224533721:android:d8831a65869c08d774eac8",
+        "android_client_info": {
+          "package_name": "com.unirestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548224533721-pve2lb564edfjf77coaifa0j64k9lvr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unirestaurant",
+            "certificate_hash": "bc630edeabac35e0b405747dd8c20728e01eba11"
+          }
+        },
+        {
+          "client_id": "548224533721-on1n56nkegcdr4f79g19l3ho9m91viau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAbcWM3wPJqRSmH0nnansTPMNTlVOZ8ZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548224533721-on1n56nkegcdr4f79g19l3ho9m91viau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "548224533721-k4ehene4q3qamvebqparnsbeqma84epd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.unirestaurant",
+                "app_store_id": "962194608"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

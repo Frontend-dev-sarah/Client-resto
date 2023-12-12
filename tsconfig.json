@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"],
+      "navigation/*": ["src/navigation/*"],
+      "components/*": ["src/components/*"],
+      "pages/*": ["src/pages/*"],
+      "store/*": ["src/store/*"],
+      "models/*": ["src/models/*"],
+      "resources/*": ["src/resources/*"],
+      "utils/*": ["src/utils/*"],
+      "services/*": ["src/services/*"],
+      "assets/*": ["assets/*"]
+    },
+    "strict": true
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "NSCameraUsageDescription": "Donner accès à la caméra pour prendre des photos permet d'envoyer des factures",
+  "NSLocationWhenInUseUsageDescription": "Donner accès à la localisation permet de vous proposer des distributeurs à proximité",
+  "NSUserTrackingUsageDescription": "UNI récolte des informations pour améliorer l'expérience utilisateur"
+}
